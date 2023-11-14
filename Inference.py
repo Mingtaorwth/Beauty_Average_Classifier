@@ -21,20 +21,17 @@ class ConvNet(nn.Module):
 
     def forward(self, x):
         x = self.pool(F.relu(self.conv1(x)))
-        # x_ = np.transpose(x[0].detach(), (1, 2, 0))
-        # plt.imshow(x_[:, :, 5])
-        # plt.show()
         x = self.pool(F.relu(self.conv2(x)))
         x = self.pool(F.relu(self.conv3(x)))
         x = x.view(-1, 24 * 26 * 26)
-        x = F.relu(self.fc1(x))  # -> n, 120
-        x = F.relu(self.fc2(x))  # -> n, 84
-        x = self.fc3(x)  # -> n, 2
+        x = F.relu(self.fc1(x))
+        x = F.relu(self.fc2(x))
+        x = self.fc3(x)
         return x
 
 
 PATH = 'beautiful.pth'
-image_pred = plt.imread('archive/train/average/0820.jpg')
+image_pred = plt.imread('a_test_image.jpg')
 
 
 loaded_model = ConvNet()
