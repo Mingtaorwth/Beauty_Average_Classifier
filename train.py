@@ -3,7 +3,6 @@ import torch.nn as nn
 from Arch import train_data_loader
 from Arch import test_loader, images, labels
 import torch.nn.functional as F
-# from Arch import writer
 import sys
 
 classes = ('average', 'beautiful')
