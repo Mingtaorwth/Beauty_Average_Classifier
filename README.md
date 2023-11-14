@@ -54,5 +54,5 @@ Here are some results for this binary classifier:
 ## Contribution 
 Link to data set:
 
-[Data]([https://github.com/](https://www.kaggle.com/datasets/gpiosenka/beauty-detection-data-set)https://www.kaggle.com/datasets/gpiosenka/beauty-detection-data-set)
+[Data](https://www.kaggle.com/datasets/gpiosenka/beauty-detection-data-set)
 
