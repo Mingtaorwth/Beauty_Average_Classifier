@@ -26,11 +26,6 @@ pip install Pillow
 
 ## Results
 Here are some results for this binary classifier:
-| Image 1               | Image 2               |
-|-----------------------|-----------------------|
-| ![Result1](res1.png)     | ![Result2](res2.png)      |
 
-| Image 3               | Image 4               |
-|-----------------------|-----------------------|
-| ![Result3](res3.png)      | ![Result4](res4.png)      |
+![Result1](res1.png) ![Result3](res3.png) ![Result4](res4.png)
 
